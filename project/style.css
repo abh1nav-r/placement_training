@@ -1,0 +1,422 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    display: flex;
+}
+.nav-logo{
+    margin:5px;
+    height: 50px;
+    width: 140px;
+}
+.logo{
+    margin-left:5px;
+    background-image: url("amazon-logo-black.jpg");
+    height: 50px;
+    width:140px;
+    background-size:cover;
+}
+.logo:hover{
+    border: 1px solid white;
+}
+.address{
+    color: white;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px;
+    height:50px;
+    width: 140px;
+    font
+}
+.address:hover{
+    border: 1px solid white;
+}
+#one{
+    padding:0px 25px;
+    
+}
+#two{
+    display: inline;
+    
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+#select{
+    height: 40px;
+    width: 59px;
+    padding: 0px 0px 0px 5px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#select:hover{
+    border:3px solid;
+    border-left-color: coral;
+    border-top-color: coral;
+    border-bottom-color: coral;
+     border-right-color: rgb(231, 227, 225);
+}
+#search{
+    height:20.55px;
+    width: 330px;
+    padding: 7px 10px 10px 0px;
+    border-bottom-left-radius:0px ;
+    border: 1px solid white;
+}
+#search:hover{
+    border:3px solid;
+    border-top-color: coral;
+    border-bottom-color: coral;
+    border-left-color: rgb(244, 238, 236);
+    border-right-color: rgb(222, 214, 212);
+}
+#button{
+    height:39px;
+    width: 59px;
+    border: 1px solid white;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    background-color: rgb(232, 166, 12);
+}
+.language{
+    margin-left: 20px;
+}
+#lang{
+    font-weight: bolder;
+    height:38px;
+    color:white;
+    background-color: #0f1111;
+    border: 1px solid #0f1111;
+}
+.signin{
+    height:50px;
+    width:113px;
+    margin:5px;
+    margin-left:20px;
+}
+#a{
+    color: white;
+    padding: 6px;
+}
+#c{
+    font-size: 17;
+    color: white;
+    font-weight: bolder;
+}
+#login{
+    background-color: #0f1111;
+    color: white;
+    border:2px solid #0f1111;
+    padding-left: 0%;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.orders{
+    height:50px;
+    width:113px;
+    margin-left:70px;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+.cart{
+    height:50px;
+    width: 60px;
+}
+.cartin{
+    margin:20px;
+
+}
+#car{
+    color: white;
+    margin-top:10px;
+    margin-right:10px;
+    font-weight: bolder;
+    padding-left: 0px;
+
+}
+.panel{
+    height:39px;
+    background-color: #0f2235;
+    display: flex;
+}
+.menu{
+    height: 37px;
+    width: 59px;
+}
+#btn{
+    color: white;
+    height: 18px;
+    width: 59x;
+    margin-top:7px;
+    padding-right: 5px;
+    background-color: #0f2235;
+    border:2px solid #0f2235;
+}
+.menu:hover{
+    border: 1px solid white;
+}
+.fresh{
+    height: 37px;
+    width: 62px;
+}
+#fselect{
+    height:18px;
+    width: 59px;
+    margin-top: 7px;
+    padding-left: 1px;
+    background-color: #0f2235;
+    color: white;
+    border: 2px solid #0f2235;
+}
+.fresh:hover{
+    border:1px solid white;
+}
+.maxp{
+    color: white;
+    margin-top: 7px;
+    padding-left: 10px;
+    align-items: center;
+}
+.maxp:hover{
+    border:1px solid white;
+}
+.sell{
+    color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+}
+.sell:hover{
+    border:1px solid white;
+}
+.best{
+    color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+}
+.best:hover{
+    border:1px solid white;
+}
+.mob{
+    color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+}
+.mob:hover{
+    border:1px solid white;
+}
+.deals{
+    color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+}
+.deals:hover{
+     border:1px solid white;
+}
+.cus{
+    color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cus:hover{
+     border:1px solid white;
+}
+.prime{
+    height: 37px;
+    width: 62px;
+}
+#pri{
+     height:18px;
+    width: 59px;
+    margin-top: 7px;
+    background-color: #0f2235;
+    color: white;
+    border: 2px solid #0f2235;
+}
+.prime:hover{
+    border:1px solid white
+}
+.pay{
+    color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.pay:hover{
+    border:1px solid white;
+}
+.new{
+     color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.new:hover{
+    border:1px solid white;
+}
+.electronics{
+     color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.electronics:hover{
+    border:1px solid white;
+}
+.fashion{
+     color: white;
+    margin-top: 7px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.fashion:hover{
+    border:1px solid white;
+}
+.background{
+    height: 402px;
+    width: 1264px;
+}
+.snekers{
+    height: 402px;
+    width: 1264.5px;
+    background-image:url("Sneakers-1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  
+}
+.main-box{
+    height:960px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    height: 420px;
+    width: 290px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    font-weight: bolder;
+    border: 1px solid rgb(173, 67, 67);
+    border-radius: 5px;
+}
+.grid1{
+    display: flex;
+    margin-top:10px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.img1{
+    height: 142px;
+    width: 130px;
+    background-image: url("Home_furnishings.jpg");
+    background-size: cover;
+}
+.img2{
+    height: 142px;
+    width: 130px;
+    background-image: url("Home_decor.jpg");
+    background-color: white;
+}
+.img3{
+    height: 142px;
+    width: 130px;
+    background-image: url("Home_storage.jpg");
+    background-size: cover;
+}
+.img4{
+    height: 142px;
+    width: 130px;
+    background-image: url("Home_lighting.jpg");
+    background-size: cover;
+}
+.box2{
+    height: 420px;
+    width: 290px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    font-weight: bolder;
+     border: 1px solid rgb(173, 67, 67);
+    border-radius: 5px;
+}
+.grid2{
+    display: flex;
+    margin-top:10px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.img21{
+    height: 142px;
+    width: 130px;
+    background-image: url("Laptops.jpg");
+    background-size: cover;
+}
+.img22{
+    height: 142px;
+    width: 130px;
+    background-image: url("KitchenAppliances.jpg");
+    background-size: cover;
+}
+.img23{
+    height: 142px;
+    width: 130px;
+    background-image: url("OfficeChairs.jpg");
+    background-size: cover;
+}
+.img24{
+    height: 142px;
+    width: 130px;
+    background-image: url("ABdelivery.jpg");
+    background-size: cover;
+}.box3{
+    height: 420px;
+    width: 290px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    font-weight: bolder;
+     border: 1px solid rgb(173, 67, 67);
+    border-radius: 5px;
+}
+.grid3{
+    display: flex;
+    margin-top:10px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.img31{
+    height: 142px;
+    width: 130px;
+    background-image: url("Appliances.jpg");
+    background-size: cover;
+}
+.img32{
+    height: 142px;
+    width: 130px;
+    background-image: url("refre.jpg");
+    background-size: cover;
+}
+.img33{
+    height: 142px;
+    width: 130px;
+    background-image: url("oven.jpg");
+    background-size: cover;
+}
+.img34{
+    height: 142px;
+    width: 130px;
+    background-image: url("wm.jpg");
+    background-size: cover;
+}
